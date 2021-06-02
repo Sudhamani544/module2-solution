@@ -6,12 +6,11 @@ h1{
 	font-style: italic ;
   }
 
- *{
+*{
  	box-sizing: border-box;
   }
 
 div > p{
-
 	background-color : grey;
 	border: 1px solid black;
 	width: 90%;
@@ -26,54 +25,58 @@ div > p{
   }
 
 .pos{
-  	position: relative;
-  	border-left: 1px solid black;
-  	border-bottom: 1px solid black;
-    font-weight: bold;
-  	font-size: 125%;
-  	width: 35%;
-  	height: 30px;
-    margin-right: -0.4em; 
-  	float: right;
-  	background-color: pink;
-  	text-align: center;
-  	padding-top: 5px;
+	position: relative;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+  font-weight: bold;
+	font-size: 125%;
+	width: 35%;
+	height: 30px;
+  margin-right: -0.4em; 
+	float: right;
+	background-color: pink;
+	text-align: center;
+	padding-top: 5px;
   }
-  .veg{
-  	background-color: red;
+
+.veg{
+  background-color: red;
   }
-  .sushi{
-  	background-color: #ffff99;
+
+.sushi{
+  background-color: #ffff99;
   }
- .row{
+
+.row{
  	width: 100%;
-   }
- @media (min-width: 992px) {
+  }
+
+@media (min-width: 992px) {
  	.col-lg-4{
  		width: 33%;
  		float: left;
  		margin-right: auto;
-	    margin-left: auto;
- 	}
- }
- @media (min-width: 768px) and (max-width: 991px) {
+	  margin-left: auto;
+ 	  }
+  }
+@media (min-width: 768px) and (max-width: 991px) {
  	.col-md-6{
  		width: 50%;
  		float: left;
  		margin-right: auto;
-	    margin-left: auto;
- 	}
+	  margin-left: auto;
+ 	  }
  	.col-md-12{
  		width: 105%;
  		float: left;
  		margin-left: -1.5em;
- 	}
- }
-  @media (max-width: 767px) {
+ 	  }
+  }
+@media (max-width: 767px) {
  	.col-sm-12{
  		width: 100%;
  		float: left;
  		margin-right: auto;
 		margin-left: auto;
- 	}
- }
+  	}
+  }
